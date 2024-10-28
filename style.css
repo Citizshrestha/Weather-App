@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'montserrat';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background: linear-gradient(to right, #09C4C6, #5799df);
+  color: #fff;
+  position: relative;
+ 
+}
+
+.card{
+  position: absolute;
+  left: 33%;
+  top: 8%;
+  height: 90vh;
+  width: 35%;
+  background: linear-gradient(to right, #8EC78B,#006FBD);
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+}
+
+.heading h1{
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 12rem;
+ 
+  margin-bottom: -1rem; 
+}
+.heading h3{
+  font-size: 1.5rem;
+  font-weight: 300;
+  white-space: nowrap;
+  padding: 0 8rem;
+ 
+}
+
+.search input{
+  padding: 1rem;
+  width: 70%;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  font-size: 1.3rem;
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+.search input:hover{
+  border: 3.5px solid #000;
+}
+.search img{
+ height: 50%;
+}
+
+.search button{
+  border: 0;
+  outline: 0;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin-left: 0.5vw;
+  
+}
+.search button:hover{
+  border: 3.5px solid #000;
+}
+.weather{
+  text-align: center;
+  
+}
+
+.weather>img{
+  height: 180px;
+  margin: 1vw 10vw;
+
+}
+.weather>h1{
+  font-size: 4rem;
+  padding: 0 12vw;
+  margin-top: -3vw;
+
+}
+.weather>h2{
+  width: 80%;
+  /* background-color: red; */
+  font-size: 2.5rem;
+  padding: 0 11vw;
+  
+  white-space: nowrap;
+}
+
+.details{
+  display: flex;
+  align-items: center;justify-content: space-between;
+  margin-top: 2vw;
+  position: relative;
+}
+
+.col1{
+ position: absolute;
+ left: 10%;
+ top: 5%;
+}
+.col1 h2{
+  font-size: 2rem;
+  margin-top: .5vw;
+  
+}
+.col1 h3{
+  font-weight: 400;
+}
+.col2{
+ position: absolute;
+ right: 10%;
+ top: 5%;
+}
+.col2 img{
+   margin-top: -.5vw;
+}
+.col2 h2{
+  font-size: 2rem;
+  margin-top: .3vw;
+}
+.col2 h3{
+  font-weight: 400;
+}
+
+.weather{
+  display: none;
+}
+
+.error{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  display: none;
+}
